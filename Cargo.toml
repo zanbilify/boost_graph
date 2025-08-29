@@ -1,0 +1,59 @@
+[package]
+name = "boost_graph"
+description = "Boost C++ library boost_graph packaged using Zanbil"
+version = "0.1.0"
+edition = "2024"
+links = "boost_graph"
+license = "BSL-1.0"
+repository = "https://github.com/zanbilify/boost_graph"
+
+[package.metadata.zanbil]
+make_dependencies_public = true
+
+[dependencies]
+boost_algorithm = { version = "0.1.0", path = "../boost_algorithm" }
+boost_any = { version = "0.1.0", path = "../boost_any" }
+boost_array = { version = "0.1.0", path = "../boost_array" }
+boost_assert = { version = "0.1.0", path = "../boost_assert" }
+boost_bimap = { version = "0.1.0", path = "../boost_bimap" }
+boost_bind = { version = "0.1.0", path = "../boost_bind" }
+boost_concept_check = { version = "0.1.0", path = "../boost_concept_check" }
+boost_config = { version = "0.1.0", path = "../boost_config" }
+boost_container_hash = { version = "0.1.0", path = "../boost_container_hash" }
+boost_conversion = { version = "0.1.0", path = "../boost_conversion" }
+boost_core = { version = "0.1.0", path = "../boost_core" }
+boost_detail = { version = "0.1.0", path = "../boost_detail" }
+boost_foreach = { version = "0.1.0", path = "../boost_foreach" }
+boost_function = { version = "0.1.0", path = "../boost_function" }
+boost_geometry = { version = "0.1.0", path = "../boost_geometry" }
+boost_integer = { version = "0.1.0", path = "../boost_integer" }
+boost_iterator = { version = "0.1.0", path = "../boost_iterator" }
+boost_lexical_cast = { version = "0.1.0", path = "../boost_lexical_cast" }
+boost_math = { version = "0.1.0", path = "../boost_math" }
+boost_move = { version = "0.1.0", path = "../boost_move" }
+boost_mpl = { version = "0.1.0", path = "../boost_mpl" }
+boost_multi_index = { version = "0.1.0", path = "../boost_multi_index" }
+boost_numeric_conversion = { version = "0.1.0", path = "../boost_numeric_conversion" }
+boost_optional = { version = "0.1.0", path = "../boost_optional" }
+boost_parameter = { version = "0.1.0", path = "../boost_parameter" }
+boost_preprocessor = { version = "0.1.0", path = "../boost_preprocessor" }
+boost_property_map = { version = "0.1.0", path = "../boost_property_map" }
+boost_property_tree = { version = "0.1.0", path = "../boost_property_tree" }
+boost_random = { version = "0.1.0", path = "../boost_random" }
+boost_range = { version = "0.1.0", path = "../boost_range" }
+boost_regex = { version = "0.1.0", path = "../boost_regex" }
+boost_serialization = { version = "0.1.0", path = "../boost_serialization" }
+boost_smart_ptr = { version = "0.1.0", path = "../boost_smart_ptr" }
+boost_spirit = { version = "0.1.0", path = "../boost_spirit" }
+boost_static_assert = { version = "0.1.0", path = "../boost_static_assert" }
+boost_throw_exception = { version = "0.1.0", path = "../boost_throw_exception" }
+boost_tti = { version = "0.1.0", path = "../boost_tti" }
+boost_tuple = { version = "0.1.0", path = "../boost_tuple" }
+boost_type_traits = { version = "0.1.0", path = "../boost_type_traits" }
+boost_typeof = { version = "0.1.0", path = "../boost_typeof" }
+boost_unordered = { version = "0.1.0", path = "../boost_unordered" }
+boost_utility = { version = "0.1.0", path = "../boost_utility" }
+boost_xpressive = { version = "0.1.0", path = "../boost_xpressive" }
+
+[build-dependencies]
+zanbil-boost-build = "0.1.0"
